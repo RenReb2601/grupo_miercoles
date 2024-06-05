@@ -3,7 +3,7 @@ class Persona:
 
   def __init__(self, nombre):
     self.nombre = nombre
-    self.edad = randint(3, 80)
+    self.edad = randint(3, 100)
   
   def saludar(self):
     print(f'Hola, soy {self.nombre}')
